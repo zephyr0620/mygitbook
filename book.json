@@ -2,5 +2,29 @@
   "title" : "Notes",
   "author" : "zephyr",
   "description" : "个人笔记",
-  "language" : "zh-hans"
+  "language" : "zh-hans",
+  "gitbook" : "3.2.2",
+  "gitbook" : ">=3.0.0",
+  "links" : {
+    "sidebar" : {
+      "Home" : "http://zhangjikai.com"
+    }
+  },
+  "styles": {
+    "website": "styles/website.css",
+    "ebook": "styles/ebook.css",
+    "pdf": "styles/pdf.css",
+    "mobi": "styles/mobi.css",
+    "epub": "styles/epub.css"
+  },
+  "plugins": [
+    "disqus"
+  ],
+  "pluginsConfig": {
+    "fontsettings": {
+      "theme": "sepia",
+      "family": "serif",
+      "size":  1
+    }
+  }
 }
