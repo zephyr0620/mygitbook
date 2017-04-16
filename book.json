@@ -6,10 +6,18 @@
   "gitbook" : "3.2.2",
   "gitbook" : ">=3.0.0",
   "links" : {
+    "sharing": {
+      "all": null,
+      "facebook": null,
+      "google": null,
+      "twitter": null,
+      "weibo": null
+    },
     "sidebar" : {
       "Home" : ""
     }
   },
   "plugins": [
+    ""
   ]
 }
