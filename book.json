@@ -10,6 +10,9 @@
       "Home" : "http://zhangjikai.com"
     }
   },
+  "theme-default": {
+    "showLevel": true
+  },
   "styles": {
     "website": "styles/website.css",
     "ebook": "styles/ebook.css",
@@ -18,7 +21,10 @@
     "epub": "styles/epub.css"
   },
   "plugins": [
-    "disqus"
+    "disqus",
+    "-lunr",
+    "-search",
+    "-highlight"
   ],
   "pluginsConfig": {
     "fontsettings": {
